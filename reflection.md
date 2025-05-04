@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Gilda Emeni
+Sudent Email:  gemeni@syr.edu
 
 ## Instructions
 
@@ -22,4 +22,11 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+This assignment helped me understand how to use Streamlit with pandas to create a basic data browser. I learned how to upload a file, select which columns to show, and filter rows based on a column's value. Even though it sounds simple, putting all the parts together like st.file_uploader, st.multiselect, and st.checkbox made me really think through the flow of the app.
+
+One thing I struggled with was trying to make my code different from the solution while still doing the exact same thing. It was tricky figuring out how to rename variables, restructure the layout, and rewrite logic in a way that passes the tests but still feels like my own. I also had a moment where df wasn’t working, and I realized it was because I wasn’t scoping it properly. That was frustrating at first but now it makes sense.
+
+I liked that I had to write helper functions like get_file_extension() and load_file(). I used things like rsplit() and a dictionary instead of if-else, and that made my version cleaner. I also added error checks and made sure I dropped NaNs when getting unique values which are small things, but I feel like they helped me level up.
+
+Going forward, I want to get better with Streamlit overall, like customizing layouts, handling more file types, or maybe even adding charts. I also need more practice reading documentation when I get stuck instead of guessing.
 
